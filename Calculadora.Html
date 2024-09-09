@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <Meta charset="UTF-8">
+        <Meta name="viewport" content="width=device-width, inicial-scale-1.0">
+        <Title>calculadora</Title>
+    </head>
+    <body>
+        <script src="calculadora.js"></script>
+        <input type="text" name="" id="zeroum" placeholder="primeiro numero">
+        <input type="text" name="" id="zerodois" placeholder="segundo numero">
+
+        <div>
+            <input type="radio" name="operacao" value="soma"> Soma
+            <input type="radio" name="operacao" value="subtracao"> Subtração
+            <input type="radio" name="operacao" value="multiplicacao"> Multiplicação
+            <input type="radio" name="operacao" value="divisao"> Divisão 
+        </div>
+        <button onclick="calcula()">Calcular</button>
+        <p>resultado: <span id="resultado"></span></p>
+
+    </body>
+</html>        
